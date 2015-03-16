@@ -75,6 +75,23 @@ If you checked out this project from github, you can find a configuration file e
 $ pushserver -c /path/to/config.json
 ```
 
+#### Override configuration
+
+You can override your configuration with the "-o" or "--override" option by providing a key=value option.
+The key can be of the form key.subKey.
+If the value begins with process.env, it is evaluated.
+For example, if your mongodbUrl comes from an environment variable:
+
+```shell
+$ pushserver -c /path/to/config.json -o mongodbUrl=process.env.MY_ENV_VAR
+```
+
+If you want to set you GCM API key via the command line:
+
+```shell
+$ pushserver -c /path/to/config.json -o gcm.apiKey=YOUR_API_KEY
+```
+
 ### 5 - Enjoy!
 
 
