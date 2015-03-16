@@ -49,11 +49,6 @@ _.forEach(program.override, function(valueParam){
     var key = array[0];
     var value = array[1];
 
-    var env = /^process\.env\.(.+)$/.exec(value);
-    if(env) {
-      value = process.env[env[1]];
-    }
-
     var configElement = overrideValues;
     var keys = key.split('.');
     for(var i = 0 ; i < keys.length - 1 ; i++) {

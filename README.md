@@ -68,6 +68,9 @@ If you checked out this project from github, you can find a configuration file e
 
 + Please refer to node-apn's [documentation](https://github.com/argon/node-apn) to see all the available parameters and find how to convert your certificates into the expected format. 
 
+#### Dynamic configuration
+
+You can use the "process.env.MY_ENV_VAR" syntax in the config.json file. It will automatically be replaced by the value of the corresponding environment variable. 
 
 ### 4 - Start server
 
