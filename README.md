@@ -236,6 +236,9 @@ http://domain:port/users/{user}/associations (GET)
 }
 ```
 
+## SSH to VPS
+
+* ssh root@107.170.234.15  (Password: chronos)
 
 ## Dependencies
 
