@@ -4,7 +4,7 @@
     "mongodbUrl": "mongodb://root:weig0n0w@localhost/pushserver",
 
     "gcm": {
-        "apiKey": "YOUR_API_KEY_HERE"
+        "apiKey": "AIzaSyC_gvBS4F4xPuZ_Ra8ydBMDzPb3Zyvo65U"
     },
 
     "apn": {
